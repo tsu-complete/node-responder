@@ -35,7 +35,7 @@ Linting
 
 Linted with jshint
 
-```js
+```sh
 $ npm run lint
 ```
 
@@ -44,7 +44,7 @@ Testing
 
 Tested with mocha
 
-```bash
+```sh
 $ npm test
 ```
 
@@ -53,7 +53,7 @@ Documentation
 
 Documented with jsdoc
 
-```bash
+```sh
 $ npm run docs
 ```
 
