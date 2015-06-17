@@ -4,7 +4,9 @@
   "description": "easy express server",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "docs": "./node_modules/jsdoc/jsdoc.js readme.md *.js",
+    "lint": "./node_modules/jshint/bin/jshint *.js test/*.js",
+    "test": "npm run lint && ./node_modules/mocha/bin/mocha -r test/__setup.js -R spec test/*.test.js"
   },
   "repository": {
     "type": "git",
@@ -20,5 +22,18 @@
   "bugs": {
     "url": "https://github.com/tsu-complete/node-responder/issues"
   },
-  "homepage": "https://github.com/tsu-complete/node-responder#readme"
+  "homepage": "https://github.com/tsu-complete/node-responder#readme",
+  "devDependencies": {
+    "chai": "^3.0.0",
+    "js-ajax": "tsu-complete/js-ajax",
+    "jsdoc": "^3.3.2",
+    "jshint": "^2.8.0",
+    "minimist": "^1.1.1",
+    "mocha": "^2.2.5",
+    "xhr2": "^0.1.2"
+  },
+  "dependencies": {
+    "cors": "^2.7.1",
+    "express": "^4.12.4"
+  }
 }
