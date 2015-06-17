@@ -1,0 +1,24 @@
+{
+  "name": "node-responder",
+  "version": "1.0.0",
+  "description": "easy express server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tsu-complete/node-responder.git"
+  },
+  "keywords": [
+    "responder",
+    "express",
+    "server"
+  ],
+  "author": "tsukumo",
+  "license": "WTFPL",
+  "bugs": {
+    "url": "https://github.com/tsu-complete/node-responder/issues"
+  },
+  "homepage": "https://github.com/tsu-complete/node-responder#readme"
+}
