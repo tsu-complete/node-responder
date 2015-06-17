@@ -6,7 +6,8 @@
   "scripts": {
     "docs": "./node_modules/jsdoc/jsdoc.js -P package.json readme.md *.js",
     "lint": "./node_modules/jshint/bin/jshint *.js test/*.js",
-    "test": "npm run lint && ./node_modules/mocha/bin/mocha -r test/__setup.js -R spec test/*.test.js"
+    "pretest": "npm run lint",
+    "test": "./node_modules/mocha/bin/mocha -r test/__setup.js -R spec test/*.test.js"
   },
   "repository": {
     "type": "git",
@@ -34,6 +35,7 @@
   },
   "dependencies": {
     "cors": "^2.7.1",
-    "express": "^4.12.4"
+    "express": "^4.12.4",
+    "underscore": "^1.8.3"
   }
 }
