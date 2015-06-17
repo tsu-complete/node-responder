@@ -1,6 +1,8 @@
 
-node-responder [![Build Status](https://travis-ci.org/tsu-complete/node-responder.svg?branch=master)](https://travis-ci.org/tsu-complete/node-responder) [![Dependency Status](https://david-dm.org/tsu-complete/node-responder.svg)](https://david-dm.org/tsu-complete/node-responder) [![Documentation Coverage](http://inch-ci.org/github/tsu-complete/node-responder.svg?branch=master)](http://inch-ci.org/github/tsu-complete/node-responder?branch=master)
+node-responder
 ===
+
+[![Build Status](https://travis-ci.org/tsu-complete/node-responder.svg?branch=master)](https://travis-ci.org/tsu-complete/node-responder) [![Dependency Status](https://david-dm.org/tsu-complete/node-responder.svg)](https://david-dm.org/tsu-complete/node-responder) [![Documentation Coverage](http://inch-ci.org/github/tsu-complete/node-responder.svg?branch=master)](http://inch-ci.org/github/tsu-complete/node-responder?branch=master)
 
 > Easy express server
 

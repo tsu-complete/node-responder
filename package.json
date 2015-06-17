@@ -4,7 +4,7 @@
   "description": "easy express server",
   "main": "index.js",
   "scripts": {
-    "docs": "./node_modules/jsdoc/jsdoc.js readme.md *.js",
+    "docs": "./node_modules/jsdoc/jsdoc.js -P package.json readme.md *.js",
     "lint": "./node_modules/jshint/bin/jshint *.js test/*.js",
     "test": "npm run lint && ./node_modules/mocha/bin/mocha -r test/__setup.js -R spec test/*.test.js"
   },
