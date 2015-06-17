@@ -12,15 +12,21 @@ License
 Usage
 ---
 
+```sh
+
+$ npm install --save tsu-complete/node-responder
+
+```
+
 ```js
 
-var responder = require("responder")
+var responder = require("node-responder")
 
 responder.api({
     '/': {
         type: responder.METHOD_GET,
         responder: function ( req, res ) {
-            responder.LANG_JSON(req, res)(responder.api());
+            responder.send.json(req, res)(null, responder.api());
         }
     }
 });
